@@ -1016,7 +1016,7 @@ input:not(:placeholder-shown) ~ .form-field-icon::after {
 
 .form-search .search-button{
     display: inline-block;
-    background-color: transparent;
+    background: transparent;
     border: 0;
     margin: 0;
     padding: 0;
@@ -1035,7 +1035,7 @@ input:not(:placeholder-shown) ~ .form-field-icon::after {
     height: 3rem;
     border: 0;
     outline: none;
-    position: relative;
+    position: absolute;
     width: 0;
     right: 0;
     background: none;
