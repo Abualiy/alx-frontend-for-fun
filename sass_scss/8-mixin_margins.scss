@@ -1,0 +1,18 @@
+/* margin in sass */
+@mixin margin($margin: 10px) {
+	margin-left: $margin;
+	margin-right: $margin;
+}
+
+@mixin margin2($margin2: 15px) {
+	margin-left: $margin2;
+	margin-right: $margin2;
+}
+
+body {
+	@include margin;
+}
+
+div {
+	@include margin2;
+}
