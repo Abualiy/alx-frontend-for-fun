@@ -1,9 +1,9 @@
-/* nested declarations */
-$text-color: #FF0000;
-$hover-color: #00FF00;
+/* change button color on hover*/
+$color: #FF0000;
+$color2: #00FF00;
 button {
-	color: $text-color;
+	color: $color;
 	&:hover {
-		color: $hover-color;
+		color: $color2;
 	}
 }
